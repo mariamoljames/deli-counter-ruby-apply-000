@@ -23,3 +23,5 @@ def now_serving(katz_deli)
     katz_deli.each do |name|
       puts "Now serving #{name[katz_deli.find_index(name)+1]}"
     end
+  end
+end
