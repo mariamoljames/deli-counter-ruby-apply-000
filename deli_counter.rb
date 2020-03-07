@@ -20,8 +20,6 @@ def now_serving(katz_deli)
   if katz_deli.length==0 || katz_deli.length==1
     puts "There is nobody waiting to be served!"
   else
-    katz_deli.each do |name|
-      puts "Now serving #{name[katz_deli.find_index(name)+1]}"
-    end
+    puts "Now serving #{item[1]}"
   end
 end
