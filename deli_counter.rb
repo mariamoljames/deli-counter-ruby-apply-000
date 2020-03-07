@@ -8,4 +8,5 @@ def line(katz_deli)
     katz_deli.each do |name|
       puts "name[index]+1. #{name}"
     end
-  
+  end
+end
