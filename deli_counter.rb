@@ -5,8 +5,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     puts "The line is currently:"
-    katz_deli.each_with_index {|item,index| print "#{index+1}. #{item}"}
-  end
+    katz_deli.each_with_index do |item,index| 
+      print "#{index+1}. #{item}"}
+    end
 end
 
 def take_a_number(katz_deli,name)
