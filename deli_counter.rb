@@ -18,5 +18,6 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else
     puts "Now serving #{katz_deli[1]}"
+    katz_deli.pop(1)
   end
 end
