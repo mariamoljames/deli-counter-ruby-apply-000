@@ -9,8 +9,6 @@ def line (katz_deli)
       outstr+="#{index +1}. #{name}"
     end
     puts outstr
-  else
-
   end
 end
 
