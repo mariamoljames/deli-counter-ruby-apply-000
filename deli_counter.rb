@@ -5,7 +5,7 @@ def line(katz_deli)
     if katz_deli.length==0
       puts "The line is currently empty."
   else
-    puts "The line is currently: {index+1}. #{item}"
+    puts "The line is currently: #{index+1}. #{item}"
     end
   end
 end
