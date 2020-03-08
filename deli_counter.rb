@@ -1,10 +1,11 @@
 katz_deli=[]
 
 def line (katz_deli)
+  outstr="The line is currently:"
   if katz_deli.count > 1
-    puts "The line is currently:"
+    puts
     katz_deli.each_with_index do |name, index|
-      print "#{index +1}. #{name}"
+      outstr+="#{index +1}. #{name}"
   else
     puts "The line is currently empty."
   end
